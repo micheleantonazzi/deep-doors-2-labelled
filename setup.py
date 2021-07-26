@@ -48,7 +48,7 @@ setup(
     author="Michele Antonazzi",
     author_email="micheleantonazzi@gmail.com",
     # Choose your license
-    license='MIT Licence',
+    license='MIT',
     include_package_data=True,
     classifiers=[
         'License :: OSI Approved :: MIT License',
