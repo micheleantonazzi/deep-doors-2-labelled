@@ -27,7 +27,7 @@ def find_version(*file_paths):
     raise RuntimeError("Unable to find version string.")
 
 
-__version__ = find_version("deep_doors_2_labelled", "__version__.py")
+__version__ = find_version("deep_doors_2", "__version__.py")
 
 test_deps = [
     "pytest",
@@ -61,6 +61,7 @@ setup(
         'numpy',
         'opencv-python',
         'generic-dataset',
+        'stub-generator',
     ],
     entry_points={
         'console_scripts': [
